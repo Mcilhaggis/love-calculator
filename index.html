@@ -9,6 +9,7 @@
     <title>Love Calculator</title>
 </head>
 <body>
+    <script rel="javascript" src="app.js"></script>
     <section class="calculator">
         <div class="heading">
             <h1>Love Calculator Results</h1>
@@ -20,20 +21,20 @@
             </div>
             <img src="./assets/heart.png" style="max-width: 15%;">
             <div class="secondName">
-                <input type="text" id="firstInput" value="Second Name"></label>
+                <input type="text" id="secondInput" value="Second Name"></label>
             </div>
         </div>
         <div class="percentage">
-            <p>0%</p>
+            <p id="compatability">0%</p>
         </div>
 
-        <div class="btn">
-        <button class="btn">Will the sparks fly or die?</button>
+        <div class="btn" >
+        <button type="button" class="btn" onclick="changeText()">Will the sparks fly or die?</button>
         </div>
 
 
     </section>
 
-<script rel="javascript" src="app.js"></script>
+
 </body>
 </html>
