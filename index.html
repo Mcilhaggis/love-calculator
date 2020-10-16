@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Love Calculator</title>
 </head>
-<body>
-    <script rel="javascript" src="app.js"></script>
+<body onload ="script();">
     <section class="calculator">
         <div class="heading">
             <h1>Love Calculator Results</h1>
@@ -25,16 +24,16 @@
             </div>
         </div>
         <div class="percentage">
-            <p id="compatability">0%</p>
+            <p id="compatability" class="comp">0%</p>
         </div>
 
-        <div class="btn" >
-        <button type="button" class="btn" onclick="changeText()">Will the sparks fly or die?</button>
+        <div class="butn" >
+        <button type="button" class="btn" id="bton" >Will the sparks fly or die?</button>
         </div>
 
 
     </section>
 
-
+    <script rel="javascript" src="app.js"></script>
 </body>
 </html>

@@ -37,7 +37,7 @@ h2{
  }
 
 
-.btn, .percentage{
+.butn, .btn, .percentage{
     display: flex;
     align-self: center;
     justify-content: center;
