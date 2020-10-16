@@ -57,3 +57,21 @@ button{
     font-size: 3rem;
     margin-bottom: 60px;
 }
+
+@keyframes beat {
+    0%{
+        transform: scale(.75)
+    }
+    30%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(.75);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.75)
+    }
+}

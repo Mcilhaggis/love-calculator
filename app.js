@@ -1,11 +1,10 @@
 
-    var percentage = Math.floor(Math.random()*100);
 
 
     bton.addEventListener("click", function() {
+        var percentage = Math.floor(Math.random()*100);
         document.getElementById("compatability").innerHTML = percentage +"%";
     });
-
 
 
 
