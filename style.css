@@ -32,8 +32,12 @@ h2{
     font-weight: bold;
  }
 
+ input{
+     text-align: center;
+ }
 
-.btn{
+
+.butn, .btn, .percentage{
     display: flex;
     align-self: center;
     justify-content: center;
@@ -47,4 +51,27 @@ button{
     border-radius: 3px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.percentage{
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+@keyframes beat {
+    0%{
+        transform: scale(.75)
+    }
+    30%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(.75);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.75)
+    }
 }

@@ -2,31 +2,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Myers Reset Stylesheet-->
+    <link rel="stylesheet" href="reset.css">
+    <!--Personal Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <title>Love Calculator</title>
 </head>
-<body>
+<body">
     <section class="calculator">
         <div class="heading">
             <h1>Love Calculator Results</h1>
             <h2>Love at first sight or take a hike?</h2>
         </div>
-        <div class="firstName">
-            <h2>First Name</h2>
-        </div>
-        <img src="./assets/heart.png" style="max-width: 15%;">
-        <div class="secondName">
-            <h2>Second Name</h2>
+        <div class="result">
+            <div class="firstName">
+                <input type="text" id="firstInput" placeholder="First Name" ></label>
+            </div>
+            <img src="./assets/heart.png" style="max-width: 15%;" id="heart">
+            <div class="secondName">
+                <input type="text" id="secondInput" placeholder="Second Name"></label>
+            </div>
         </div>
         <div class="percentage">
-            <h3>0%</h3>
+            <p id="compatability" class="comp">0%</p>
         </div>
 
-        <p>Will the sparks fly or die?</p>
-
+        <div class="butn" >
+        <button type="button" class="btn" id="bton" >Will the sparks fly or die?</button>
+        </div>
 
 
     </section>
 
-
+    <script rel="javascript" src="app.js"></script>
 </body>
 </html>
